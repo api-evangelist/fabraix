@@ -1,22 +1,65 @@
 aid: fabraix
 name: Fabraix
-description: Fabraix is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fabraix builds red-teaming AI agents that continuously find security
+  vulnerabilities in customer-facing AI systems. Its flagship product, Nyx,
+  autonomously discovers exploits across chat, voice, browser, and coding agents
+  without needing source-code access, drawing on a library of more than 10,000
+  jailbreaks and adaptive attack strategies that pursue promising approaches
+  across hundreds of interactions. Fabraix also created ACE (Adversarial Cost to
+  Exploit), a game-theoretic benchmark that measures AI security by the cost of
+  a successful attack, enabling continuous, lower-cost vulnerability testing that
+  re-assesses systems with each update. Fabraix is a Y Combinator (Summer 2026)
+  company. This profile is maintained by the API Evangelist network; no public
+  API, developer documentation, or machine-readable surface has been published
+  by Fabraix at this time.
 url: https://raw.githubusercontent.com/api-evangelist/fabraix/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fabraix.com/og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-batch: Summer 2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- AI Security
+- Red Teaming
+- AI Agents
+- Adversarial Verification
+- Cybersecurity
+- LLM Security
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://fabraix.com
+- type: X
+  url: https://x.com/fabraixhq
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/fabraix
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
